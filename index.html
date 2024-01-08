@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" aria-pressed="true">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">Home</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#about">About</a></li>
+          <li><a href="#trivia">Trivia</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#evolution">Evolution</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Web Development Debut: My First HTML/CSS Creation</h2>
+        <p>I built this website together with Professor
+          <a href="https://beacons.ai/otaviomiranda" target="_blank">
+            Luiz Otávio</a> during the
+          Programming course on
+          <a href="https://www.udemy.com/course/python-3-do-zero-ao-avancado/" target="_blank">Udemy</a> We used HTML
+          and CSS and grabbed some
+          images and illustrations from free websites on the internet. It's
+          just a way for me to put into practice what I've learned so far.<br>
+          Here is the link to the original project:
+          <a href="https://landingpagecursojs.netlify.app/" target="_blank">Link</a>
+        </p>
+        <p>I hope you enjoy it <span class="heart">❤</span></p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/undraw_gifts.svg" alt="ilutration of a girl and a gift.">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>About Me</h2>
+      <p>Hey, I'm Camilla Silva!<img src="assets/img/flag-of-brazil.jpg" alt="Brasil flag" width="30" height="20">An
+        aspiring web developer on a journey of exploration through HTML, CSS, and
+        JavaScript. I embarked on this web development adventure as a student eager to put theory into practice.</p>
+      <p>Guided by curiosity and a relentless drive to learn, I had the opportunity to build this project with the
+        guidance of my professor during my Programming course to refine my skills in HTML and CSS while
+        integrating diverse free resources.</p>
+      <p>This website encapsulates my passion for coding, serving as a testament to my learning journey. It's not just a
+        project; it's a reflection of my commitment and enthusiasm for the world of web development.</p>
+      <p>Thank you for joining me on this ride! 🚀</p>
+    </div>
+  </section>
+
+
+  <section id="trivia" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Did you know?</h2>
+      <p class="grid-description">Quirky facts about HTML, CSS, and JavaScript.</p>
+
+      <div class="grid">
+        <article>
+          <h3>HTML</h3>
+          <p>
+            The &lt;canvas&gt; element in HTML5 allows you to
+            create graphics, animations, and even games directly on a web page?
+            With the &lt;canvas&gt; tag, developers can draw interactive graphics
+            using JavaScript, enabling the creation of dynamic visualizations
+            and interactive experiences. From creating simple graphics to
+            complex games, the &lt;canvas&gt; element provides a versatile platform
+            to explore and expand creative possibilities in web development.
+          </p>
+        </article>
+        <article>
+          <h3>CSS</h3>
+          <p>The CSS Grid, introduced in CSS3, revolutionized web layout design? Unlike traditional
+            methods, CSS Grid provides a powerful two-dimensional grid system, allowing developers to create complex and
+            responsive layouts with ease. Its ability to manage both rows and columns simultaneously enables precise
+            control over the positioning and sizing of elements on a webpage. CSS Grid has simplified the way designers
+            approach layout creation, offering versatility and efficiency in crafting visually stunning and adaptable
+            interfaces across various devices.</p>
+        </article>
+        <article>
+          <h3>JavaScript</h3>
+          <p>JavaScript's asynchronous nature, powered by Promises and Async/Await, enables non-blocking operations,
+            crucial for handling time-consuming tasks. This feature allows the execution of multiple operations
+            simultaneously, enhancing responsiveness and preventing webpage freezing. It empowers developers to manage
+            complex tasks, like data fetching and computations, ensuring efficient and seamless web application
+            experiences.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Immerse yourself in a visual journey into a world of beauty and diversity.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="tools" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Useful Tools</h2>
+      <p class="grid-description">Discover essential tools that can significantly elevate your web development
+        experience.</p>
+
+      <div class="grid">
+        <article>
+          <h3>VSCode</h3>
+          <p>Visual Studio Code is a highly adaptable and powerful source code editor. With its extensive set of
+            features, extensions, and support for multiple languages, it offers an exceptional development environment.
+            Its user-friendly interface, integrated terminal, and built-in Git commands make coding more efficient and
+            enjoyable.</p>
+        </article>
+        <article>
+          <h3>GitHub</h3>
+          <p>GitHub is a leading platform for version control using Git. It not only enables easy hosting of
+            repositories but also provides collaborative features, issue tracking, and project management tools. Its
+            seamless integration with Git makes it an essential resource for developers and teams to collaborate on
+            projects, track changes, and manage code efficiently.</p>
+        </article>
+        <article>
+          <h3>Bootstrap</h3>
+          <p>Bootstrap is a powerful front-end framework that accelerates web development. It offers a collection of
+            pre-built components, responsive layouts, and customizable CSS styles. By using Bootstrap, developers can
+            create visually appealing and responsive websites quickly. Its grid system, components, and JavaScript
+            plugins streamline the development process and ensure consistency across various devices and browsers.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="evolution" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Technology Evolution</h2>
+      <p>Explore significant milestones and achievements in the evolution of technology over the years. The history of
+        technology dates back to ancient times, where humans developed simple tools and techniques to improve their
+        lives and accomplish tasks. However, the modern era has witnessed an exponential growth in technological
+        advancements that have revolutionized various aspects of society, communication, and industry.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Technology Milestones</caption>
+
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Technological Achievements</th>
+              <th>Responsible Individual</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>1971</td>
+              <td>Development of the microprocessor</td>
+              <td>Intel (Marcian Hoff, Federico Faggin, Stanley Mazor)</td>
+            </tr>
+            <tr>
+              <td>1989</td>
+              <td>Creation of the World Wide Web</td>
+              <td>Tim Berners-Lee</td>
+            </tr>
+            <tr>
+              <td>1991</td>
+              <td>Release of the first version of Linux</td>
+              <td>Linus Torvalds</td>
+            </tr>
+            <tr>
+              <td>2007</td>
+              <td>Launch of the first iPhone</td>
+              <td>Apple Inc. (Steve Jobs)</td>
+            </tr> 
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Contact Us</h2>
+        <p>
+          In case you need more information, feel free to send us a message using the contact form below.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/undraw_working.svg" alt="a girl working.">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/icamilla/">Feito com <span
+          class="heart">❤</span> por Camilla Silva</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
